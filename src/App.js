@@ -4,8 +4,8 @@ import desktopImage from "./image-header-desktop.jpg";
 function App() {
   return (
     <div className="container">
-      <div className="columns">
         <div className="left">
+      <div className="columns">
           <h1 className="title">
 
           Get <span className="stat-header">insights</span> that help your business grow.
@@ -27,10 +27,11 @@ function App() {
           </div>
         </div>
       </div>
+        <div className="right">
+          <img className="image" src={desktopImage} alt="team working in group" />
+        </div>
       
-      <div className="right">
-        <img className="image" src={desktopImage} alt="team working in group" />
-      </div>
+      
     </div>
   );
 }
