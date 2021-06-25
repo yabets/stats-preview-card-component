@@ -22,14 +22,14 @@ function App() {
           </div>
 
           <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
             Coded by <a href="https://github.com/yabets">Yabets</a>.
           </div>
         </div>
       </div>
       
       <div className="right">
-        <img className="image" src={desktopImage}/>
+        <img className="image" src={desktopImage} alt="team working in group" />
       </div>
     </div>
   );
